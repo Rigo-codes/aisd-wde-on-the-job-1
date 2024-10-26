@@ -43,10 +43,10 @@ In this section, you will create the basic foundation of a webpage using essenti
 
 #### Deliverables ✅
 
-- [ ] Create a new directory and index.html file. 
-- [ ] Set up a new GitHub repository for your project. (This repository here is not your starter code)
-- [ ] Initialize your local project directory and connect it to the newly created GitHub repository.
-- [ ] Set up a basic HTML boilerplate for your project.
+- [ x] Create a new directory and index.html file. 
+- [x ] Set up a new GitHub repository for your project. (This repository here is not your starter code)
+- [ x] Initialize your local project directory and connect it to the newly created GitHub repository.
+- [ x] Set up a basic HTML boilerplate for your project.
 - [ ] Create a navigation bar representing the different sections of the website.
 - [ ] Create a header section for the client's name.
 - [ ] Create paragraph sections describing who the client is, what they do, etc.
