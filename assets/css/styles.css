@@ -85,10 +85,11 @@ body {
 }
 
 .gallery {
-    display: flex;
-    justify-content: center;
+    display: grid;
     gap: 1rem;
-    flex-wrap: wrap;
+    /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
 }
 
 .gallery-photo {
@@ -211,4 +212,16 @@ button:hover {
     margin-top: 1.5rem;
     font-size: 0.8rem;
     color: #ffcc88;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
 }
