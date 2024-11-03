@@ -5,21 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
 
 
-    <nav class="navbar">
-        <ul class="nav-list">
-            <li class="nav-link">Home</li>
-            <li class="nav-link">About</li>
-            <li class="nav-link">Gallery</li>
-            <li class="nav-link">Contact</li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Olive's Bakery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <header id="header" class="header">
         <h1>Olive's Bakery</h1>
     </header>
@@ -35,17 +50,31 @@
     </section>
 
 
-    <section class="gallery-section">
+    <section id="gallery" class="gallery-section">
         <h2>Gallery</h2>
-        <div class="gallery">
-            <img class="gallery-photo"
-                src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-7552076.webp">
-            <img class="gallery-photo"
-                src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-8478138.webp">
-            <img class="gallery-photo"
-                src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-8978678.jpg">
-            <img class="gallery-photo"
-                src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-11880572.webp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img class="img-fluid"
+                        src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-7552076.webp"
+                        alt="Gallery Image 1">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img class="img-fluid"
+                        src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-8478138.webp"
+                        alt="Gallery Image 2">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img class="img-fluid"
+                        src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-8978678.jpg"
+                        alt="Gallery Image 3">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img class="img-fluid"
+                        src="/Users/rodrigomora/WebDevProjects/OnTheJob/aisd-wde-on-the-job-1/assets/images/pexels-photo-11880572.webp"
+                        alt="Gallery Image 4">
+                </div>
+            </div>
         </div>
     </section>
 
